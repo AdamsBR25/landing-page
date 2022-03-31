@@ -43,7 +43,13 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.hero-text {
+    width: 500px;
+    height: auto;
 }
 
 .hero-main {
@@ -55,4 +61,29 @@ li {
 .hero-subtext {
     color: #E5E7EB;
     font-size: 18px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.hero-image {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    text-align: center;
+    padding: 50px;
+    color: lightgray;
+    margin-left: 20px;
 }
